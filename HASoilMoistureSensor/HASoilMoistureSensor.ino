@@ -97,9 +97,9 @@ void setup() {
   device.enableLastWill();
 
   // Setup the Sensor Defaults
-  moistureSensor0.setName("Moisture Sensor 0");
+  moistureSensor0.setName("Moisture-Sensor-0");
   moistureSensor0.setUnitOfMeasurement("%");
-  moistureSensor1.setName("Moisture Sensor 1");
+  moistureSensor1.setName("Moisture-Sensor-1");
   moistureSensor1.setUnitOfMeasurement("%");
 
   // Connect to the MQTT Server
